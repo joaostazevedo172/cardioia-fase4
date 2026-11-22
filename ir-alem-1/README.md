@@ -2,6 +2,10 @@
 
 **CardioIA — Fase 4 — Grupo Purkinje — FIAP 2TIAOR-2026**
 
+**🎥 Vídeo:** <https://www.youtube.com/watch?v=aefW0OsMvx8>
+
+**📄 Documento (PDF):** [`docs/Purkinje_Fase4_IrAlem1_Documento.pdf`](docs/Purkinje_Fase4_IrAlem1_Documento.pdf)
+
 Análise de vieses do dataset de ECG e medição de disparidade de desempenho do modelo, com
 proposta de práticas de mitigação.
 

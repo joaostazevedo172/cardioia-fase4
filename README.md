@@ -175,6 +175,14 @@ que mais costuma faltar.
 humana. Um sistema de apoio ao diagnóstico que esconde a dúvida é pior que nenhum, porque
 produz confiança injustificada.
 
+### Vídeos
+
+| Entrega | Vídeo | Exigido pelo enunciado |
+|---|---|---|
+| Fase 4 — principal | <https://www.youtube.com/watch?v=bNeYV9i306E> | não |
+| Ir Além 1 | <https://www.youtube.com/watch?v=aefW0OsMvx8> | não |
+| **Ir Além 2** | <https://www.youtube.com/watch?v=Sca5HZtB8eY> | **sim, até 3 min** |
+
 ## 5. Resultados
 
 Execução de 13/11/2026, em CPU. Números de `outputs/comparacao_modelos.csv`.
@@ -288,6 +296,9 @@ incluindo as falhas: sem modelo na pasta, sem campo `imagem`, arquivo que não �
 | 1.3.0 | 13/11/2026 | Relatório da Parte 1, README e estrutura do repositório |
 | 1.4.0 | 13/11/2026 | Relatório do Ir Além 2 e notebook adaptado para rodar também fora do Colab |
 | 1.4.1 | 13/11/2026 | Correção: dependências em faixas — `tensorflow>=2.20` para Python 3.13 — e chamada do Gradio compatível com as versões 4 e 5 |
+| 1.5.0 | 18/11/2026 | Seção 2.4 executada: triagem binária com 0,905 de acurácia e linha de base em pixels |
+| 1.5.1 | 18/11/2026 | Correção do extrator: `preprocess_input` oficial no lugar da camada `Normalization` (ordem BGR) |
+| 1.6.0 | 22/11/2026 | Três vídeos publicados, documentos em PDF no padrão ABNT e links nos READMEs |
 
 ## 10. Licença
 

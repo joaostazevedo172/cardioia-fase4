@@ -2,6 +2,11 @@
 
 **CardioIA — Fase 4 — Grupo Purkinje — FIAP 2TIAOR-2026**
 
+**🎥 Vídeo:** <https://www.youtube.com/watch?v=Sca5HZtB8eY>
+> O enunciado exige vídeo para este Ir Além, de até 3 minutos. Este tem 2min56.
+
+**📄 Documento (PDF):** [`docs/Purkinje_Fase4_IrAlem2_Documento.pdf`](docs/Purkinje_Fase4_IrAlem2_Documento.pdf)
+
 App em React Native que fotografa ou carrega a imagem de um ECG, envia a um backend Flask que
 serve a CNN treinada na Parte 2, e exibe a classe detectada com as probabilidades de cada
 condição.
