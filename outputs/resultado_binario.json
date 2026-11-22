@@ -1,0 +1,10 @@
+{
+  "modelo": "binario_resnet_logistica",
+  "conjunto": "teste",
+  "acuracia": 0.9054054054054054,
+  "auc": 0.9545454545454546,
+  "recall_alterado": 0.8653846153846154,
+  "falsos_negativos": 7,
+  "cv_acuracia_media": 0.9062822719449226,
+  "cv_acuracia_desvio": 0.06361022280606463
+}

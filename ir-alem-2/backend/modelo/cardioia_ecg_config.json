@@ -1,0 +1,17 @@
+{
+  "classes": [
+    "Normal",
+    "Batimento_anormal",
+    "Historico_IAM",
+    "IAM"
+  ],
+  "display": {
+    "Normal": "Normal",
+    "Batimento_anormal": "Batimento anormal",
+    "Historico_IAM": "Histórico de infarto",
+    "IAM": "Infarto agudo do miocárdio"
+  },
+  "img_size": 224,
+  "crop_top": 0.1,
+  "modelo": "resnet50_transfer"
+}

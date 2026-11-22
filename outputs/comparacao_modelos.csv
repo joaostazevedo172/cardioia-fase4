@@ -1,0 +1,5 @@
+modelo,conjunto,acuracia,precisao_macro,recall_macro,f1_macro,recall_IAM
+cnn_do_zero,validacao,0.284,0.071,0.25,0.111,0.0
+resnet50_transfer,validacao,0.459,0.509,0.495,0.438,0.4
+cnn_do_zero,teste,0.297,0.074,0.25,0.115,0.0
+resnet50_transfer,teste,0.541,0.62,0.624,0.57,0.75

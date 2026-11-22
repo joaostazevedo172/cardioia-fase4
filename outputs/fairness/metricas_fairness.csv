@@ -1,0 +1,5 @@
+grupo,suporte,TPR,FPR,PPV,taxa_selecao
+Normal,22,0.6818,0.4231,0.4054,0.5
+Batimento anormal,35,0.3714,0.0,1.0,0.1757
+Histórico de infarto,13,0.6923,0.1639,0.4737,0.2568
+Infarto agudo do miocárdio,4,0.75,0.0286,0.6,0.0676

@@ -1,0 +1,21 @@
+{
+  "n_teste": 74,
+  "razao_desbalanceamento": 7.766666666666667,
+  "tpr_por_grupo": {
+    "Normal": 0.6818181818181818,
+    "Batimento anormal": 0.37142857142857144,
+    "Histórico de infarto": 0.6923076923076923,
+    "Infarto agudo do miocárdio": 0.75
+  },
+  "fpr_por_grupo": {
+    "Normal": 0.4230769230769231,
+    "Batimento anormal": 0.0,
+    "Histórico de infarto": 0.16393442622950818,
+    "Infarto agudo do miocárdio": 0.02857142857142857
+  },
+  "razao_igualdade_oportunidade": 0.49523809523809526,
+  "diferenca_equalized_odds": 0.4230769230769231,
+  "aprovado_regra_80": false,
+  "ece": 0.1040983824311076,
+  "falsos_negativos_graves_como_normal": 4
+}

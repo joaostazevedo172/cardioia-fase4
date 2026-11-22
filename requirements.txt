@@ -1,0 +1,19 @@
+# Execução local do notebook da Fase 4 (VS Code).
+# No Colab estes pacotes já vêm instalados — este arquivo é para a máquina local.
+#
+# Sobre as versões: o TensorFlow só passou a publicar wheel para Python 3.13 na
+# versão 2.20. Em Python 3.13 com TensorFlow 2.17 o pip falha com "no matching
+# distribution found" — por isso o piso é 2.20 e não uma versão fixa mais antiga.
+# Os demais pacotes usam faixas em vez de versões travadas: travar numpy em 1.26,
+# por exemplo, quebraria pelo mesmo motivo (sem wheel para 3.13).
+
+tensorflow>=2.20
+numpy>=2.1,<3
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+matplotlib>=3.9,<4
+seaborn>=0.13
+pillow>=10.4
+gradio>=4.44
+notebook>=7.2
+ipykernel>=6.29

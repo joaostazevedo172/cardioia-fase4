@@ -1,0 +1,25 @@
+# Dados e artefatos pesados — não versionados
+*.zip
+*.keras
+*.h5
+raw/
+processed/
+dados/
+!dados/LEIA-ME.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node / React Native
+node_modules/
+.expo/
+dist/
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db

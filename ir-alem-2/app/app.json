@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "CardioIA ECG",
+    "slug": "cardioia-ecg",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0f1117",
+    "splash": { "backgroundColor": "#0f1117", "resizeMode": "contain" },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "O app usa a câmera para fotografar o exame de ECG.",
+        "NSPhotoLibraryUsageDescription": "O app acessa suas imagens para enviar o exame de ECG.",
+        "NSAppTransportSecurity": { "NSAllowsLocalNetworking": true }
+      }
+    },
+    "android": {
+      "package": "br.com.purkinje.cardioia",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"],
+      "usesCleartextTraffic": true
+    },
+    "plugins": [
+      ["expo-image-picker", {
+        "photosPermission": "O app acessa suas imagens para enviar o exame de ECG.",
+        "cameraPermission": "O app usa a câmera para fotografar o exame de ECG."
+      }]
+    ]
+  }
+}
